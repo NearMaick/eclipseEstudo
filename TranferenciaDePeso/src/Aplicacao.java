@@ -15,7 +15,7 @@ public class Aplicacao {
 		piabinha.nome = "Piaba Gameplay";
 		piabinha.pesoInicial = (float) 49.8;
 		
-		float transferirQuanto = 12;//quilos transferidos:
+		float transferirQuanto = 18;//quilos transferidos:
 		
 		piabinha.pesoFinal = (float) maick.transferirPeso(transferirQuanto, maick.pesoInicial, piabinha.pesoInicial);
 		
